@@ -35,6 +35,13 @@ easy_install Flask-MIME-Encoders
 
 ## Changelog
 
+### 0.1.2
+
+#### Fixes
+
+- Fix JSON encoder issues.
+- Fix package setup on Python 3.
+
 ### 0.1.1
 
 #### Fixes
