@@ -32,7 +32,7 @@ class JsonMimeEncoder(MimeEncoders.base):
         def decorated_view(**uri_params):
             uri_params.update(self.get_request_data())
             return view(**uri_params)
-        return decorated
+        return decorated_view
 
     @classmethod
     def make_response(cls, data, **options):
