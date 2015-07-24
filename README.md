@@ -2,9 +2,9 @@
 
 Extensible Flask MIME encoders and decoders.
 
-[![Version](https://badge.fury.io/gh/salsita%2Fflask-mime-encoders.svg)]
+[![Version](https://img.shields.io/github/tag/salsita/flask-mime-encoders.svg?label=version)]
 (https://github.com/salsita/flask-mime-encoders/tags)
-[![PyPI package](https://badge.fury.io/py/Flask-MIME-Encoders.svg)]
+[![PyPI package](https://img.shields.io/pypi/v/Flask-MIME-Encoders.svg?label=pypi+package)]
 (https://pypi.python.org/pypi/Flask-MIME-Encoders/)
 [![Downloads](https://img.shields.io/pypi/dm/Flask-MIME-Encoders.svg)]
 (https://pypi.python.org/pypi/Flask-MIME-Encoders/)
