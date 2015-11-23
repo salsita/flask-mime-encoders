@@ -24,13 +24,13 @@ class JsonMimeEncoder(MimeEncoders.base):
                 response = cls.make_response(response)
 
             return response
-        return decorated
+        return decorated_view
 
     @classmethod
     def autodecoded(cls, view):
         @wraps(view)
         def decorated_view(**uri_params):
-            uri_params.update(self.get_request_data())
+            uri_params.update(cls.get_request_data())
             return view(**uri_params)
         return decorated_view
 
@@ -44,7 +44,7 @@ class JsonMimeEncoder(MimeEncoders.base):
         if request.json:
             return request.json
         elif request.data:
-            return self.loads(request.data, **options)
+            return cls.loads(request.data, **options)
         else:
             return {}
 
