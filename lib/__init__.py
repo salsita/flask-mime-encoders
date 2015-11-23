@@ -1,7 +1,7 @@
 """Extensible Flask MIME encoders and decoders."""
 
 __all__ = 'MimeEncoders'.split()
-__version__ = '0.1.2'
+__version__ = '0.1.3'
 
 from flask import request, Response
 
